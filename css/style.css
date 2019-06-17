@@ -188,7 +188,7 @@ a {
 }
 
 /* media queries for ipad */
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .first {
     display: flex;
     flex-direction: row;
@@ -245,69 +245,5 @@ a {
     display: block;
     margin: 1% auto;
     width: 70%;
-  }
-}
-
-/* media queries for desktop */
-@media only screen and (min-width: 1024px) {
-  .first {
-    display: flex;
-    flex-direction: row;
-    width: 85%;
-    border: 1px dotted black;
-    padding: 1%;
-    box-shadow: 4px 3px 10px #000;
-    margin: 1% auto;
-  }
-
-  /* first-one */
-  .first-one {
-    width: 50%;
-    text-align: left;
-  }
-
-  .first-one img {
-    width: 60%;
-    height: 60%;
-  }
-
-  /* first-two */
-  .first-two {
-    width: 50%;
-    text-align: right;
-  }
-
-  .first-two h1 {
-    font-style: italic;
-    color: red;
-  }
-
-  /* styles for second block */
-  .second {
-    width: 85%;
-    border: 2px solid #ffffff;
-    padding: 1%;
-    margin: 1% auto;
-    /* align-items: center; */
-  }
-
-  .second img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* styles for third part */
-  .third-one {
-    width: 23%;
-    margin: 1%;
-    padding: 1%;
-    border: 1px solid #ddd;
-  }
-
-  /* styles for third part images */
-  .third-one img {
-    width: 70%;
-    display: block;
-    margin: 1% auto;
   }
 }
